@@ -1,6 +1,6 @@
-# ARSW Lab 2 – Sincronización por Barrera (Barrier Sync)
+# ARSW Lab 2 – Sincronización por Barrera
 
-**Nombre:** Samuel Gil  
+**Nombre:** Samuel Antonio Gil  
 **Materia:** Arquitecturas de Software (ARSW)  
 **Institución:** Escuela Colombiana de Ingeniería
 
@@ -50,5 +50,5 @@ java -cp src edu.eci.arsw.samples.Main
 ```
 src/edu/eci/arsw/samples/
 ├── HiloProc.java   # Hilo que ejecuta la tarea iterativa
-└── Main.java       # Punto de entrada – lanza hilos y calcula promedio
+└── Main.java       # Punto de entrada lanza hilos y calcula promedio
 ```
