@@ -36,28 +36,19 @@ Esto garantiza que `getResultado()` se llame solo después de que cada hilo haya
 
 ---
 
-## Cómo compilar y ejecutar
-
-**Desde terminal:**
+## Cómo ejecutar
 
 ```bash
-mkdir -p out
-javac -d out src/edu/eci/arsw/samples/*.java
-java -cp out edu.eci.arsw.samples.Main
+javac src/edu/eci/arsw/samples/*.java
+java -cp src edu.eci.arsw.samples.Main
 ```
-
-**Desde IntelliJ IDEA:** abrir el proyecto, marcar `src` como Sources Root y ejecutar `Main.java`.
 
 ---
 
 ## Estructura del proyecto
 
 ```
-src/
-└── edu/eci/arsw/samples/
-    ├── HiloProc.java   # Hilo que ejecuta la tarea iterativa
-    └── Main.java       # Punto de entrada – lanza hilos y calcula promedio
-img/
-    ├── output-sin-barrera.png
-    └── output-con-barrera.png
+src/edu/eci/arsw/samples/
+├── HiloProc.java   # Hilo que ejecuta la tarea iterativa
+└── Main.java       # Punto de entrada – lanza hilos y calcula promedio
 ```

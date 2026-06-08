@@ -5,3 +5,6 @@ bin/
 .settings/
 *.zip
 *.docx
+.DS_Store
+.idea/vcs.xml
+.idea/workspace.xml
