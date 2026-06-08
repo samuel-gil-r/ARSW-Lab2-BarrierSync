@@ -1,6 +1,6 @@
 package edu.eci.arsw.samples;
 
-public class Main {
+public class MainSinBarrera {
 
 	public static void main(String[] args) {
 		int numHilos=20;
@@ -12,14 +12,6 @@ public class Main {
 		}
 		for (int i=0;i<numHilos;i++){
 			hilos[i].start();
-		}
-
-		for (int i=0;i<numHilos;i++){
-			try {
-				hilos[i].join();
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
 		}
 
 		long tiempoPromedio=0;
